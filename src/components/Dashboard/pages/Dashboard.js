@@ -46,9 +46,7 @@ class Dashboard extends Component {
     const { classes } = this.props;
     return (
       <>    
-        <div className={classes.content} style={{ 
-  backgroundImage: `url(${process.env.PUBLIC_URL + '/2.jpg'})`,
-}}>
+        <div className={classes.content}>
           <SearchBar
             value={this.state.value}
             onChange={(newValue) => this.setState({ city: newValue })}
