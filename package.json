@@ -1,8 +1,8 @@
 {
+  "homepage": "https://vijaybharathwaj.github.io/Weather-Forecast/",
   "name": "retail",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vijaybharathwaj.github.io/Weather-Forecast/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
