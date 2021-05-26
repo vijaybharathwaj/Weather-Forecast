@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast';
+const URL = 'https://api.openweathermap.org/data/2.5/forecast';
 const API_KEY = '453bb7ec5d9e1239f27a72f77b2124c6';
 
 export const fetchWeather = async (query) => {
